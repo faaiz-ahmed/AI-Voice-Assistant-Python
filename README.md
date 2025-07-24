@@ -57,10 +57,10 @@ python main.py
 ## 🖼️ GUI Preview
 
 ### GUI
-![GUI](screenshots/maingui.png)
+![GUI](screenshots/maingui.PNG)
 
 ### Image GUI
-![imggui](screenshots/img.png)
+![imggui](screenshots/img.PNG)
 ## 🔑 Tech Stack
 
 - **Python 3.8+**
