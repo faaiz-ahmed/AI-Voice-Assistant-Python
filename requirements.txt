@@ -1,0 +1,11 @@
+Pillow==9.2.0
+SpeechRecognition
+cohere
+gTTS==2.2.3
+google-generativeai
+playsound
+pyttsx3==2.90
+pywhatkit
+requests==2.31.0
+wikipedia
+
