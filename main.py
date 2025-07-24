@@ -167,25 +167,25 @@ def process_command_thread(query):
     elif 'open command prompt' in query:
         os.system('start cmd')
     elif 'open ms word' in query:
-        os.startfile("C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.exe")
+        os.startfile("C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.exe")#Your Path
     elif 'open ms excel' in query:
-        os.startfile("C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.exe")
+        os.startfile("C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.exe")#Your Path
     elif 'open ms powerpoint' in query:
-        os.startfile("C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.exe")
+        os.startfile("C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.exe")#Your Path
     elif 'open google chrome' in query:
-        os.startfile("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe")
+        os.startfile("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe")#Your Path
     elif 'open keyboard' in query:
-        os.startfile("C:\\Windows\\system32\\osk.exe")
+        os.startfile("C:\\Windows\\system32\\osk.exe")#Your Path
     elif 'open minecraft' in query:
-        os.startfile("C:\\Users\\ACS\\AppData\\Roaming\\.minecraft\\TLauncher.exe")
+        os.startfile("C:\\Users\\ACS\\AppData\\Roaming\\.minecraft\\TLauncher.exe")#Your Path
     elif 'open roblox' in query:
-        os.startfile("C:\\Users\\ACS\\AppData\\Local\\Roblox\\Versions\\version-86c3597a87f4495e\\RobloxPlayerBeta.exe")
+        os.startfile("C:\\Users\\ACS\\AppData\\Local\\Roblox\\Versions\\version-86c3597a87f4495e\\RobloxPlayerBeta.exe")#Your Path
     elif 'open calculator' in query:
-        os.startfile("D:\\faaiz work\\python\\claculaTor\\dist\\maincalculator.exe")
+        os.startfile("D:\\faaiz work\\python\\claculaTor\\dist\\maincalculator.exe")#Your Path
     elif 'open flappy bird' in query:
-        os.startfile("D:\\faaiz work\\python\\flappy bird\\dist\\flappybird.exe")
+        os.startfile("D:\\faaiz work\\python\\flappy bird\\dist\\flappybird.exe")#Your Path
     elif 'play music' in query:
-        mupath = "D:\\music"
+        mupath = "D:\\music"#Your Path
         songs = os.listdir(mupath)
         rd = random.choice(songs)
         os.startfile(os.path.join(mupath, rd))
